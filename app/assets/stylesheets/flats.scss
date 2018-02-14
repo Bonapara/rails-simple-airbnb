@@ -1,0 +1,59 @@
+// Place all the styles related to the flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container {
+  display: flex;
+  font-family: arial;
+}
+
+.card {
+  background-color: #F5F5F5;
+  margin: 0 10px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.card_image {
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card_infos {
+  margin: 10px;
+  height: 150px;
+  text-align: center;
+  color: #404040;
+}
+
+h1 {
+  font-family: arial;
+  text-align: center;
+}
+
+h4 {
+  font-size: 18px;
+  color:  #181818;
+}
+
+.info_bis {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.card_actions {
+  height: 40px;
+  border-top: 0.1px solid #404040;
+  background-color: #DCDCDC;
+  color: #404040;
+  text-align: center;
+  vertical-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.card_flat_address {
+}

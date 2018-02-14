@@ -1,0 +1,21 @@
+<h1>All our flats (<%= @flats.count %>)</h1>
+<div class="container">
+
+<% @flats.each do |flat| %>
+  <div class="card">
+    <div class="card_image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com/random/<%=flat.name%>');">
+    </div>
+    <div class="card_infos">
+      <h4 class="card_name"><%= flat.name %></h4>
+      <p class="card_flat_address"><%= flat.address %></p>
+      <div class="info_bis">
+        <p class="card_flat_guests">Rooms: <%= flat.number_of_guests %></p>
+        <p class="card_flat_price">Price: <%= flat.price_per_night %></p>
+      </div>
+    </div>
+    <div class="card_actions">
+       <p>More info !</p>
+    </div>
+  </div>
+<% end %>
+</div>
